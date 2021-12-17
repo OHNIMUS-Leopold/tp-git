@@ -45,14 +45,14 @@ Le fichier `.gitignore` sert à indiquer à Git les fichiers qu'il doit ignorer 
 - Faire un fichier `/public/video/a-ignorer.txt`
 - Ajouter en fin de fichier `.gitignore` la ligne suivante :
   - `/public/video`
-- [ ] cocher et commit "ajout dossier à .gitignore"
+- [X] cocher et commit "ajout dossier à .gitignore"
 - Synchroniser les commit avec Github
   - constater que le fichier `/public/video/a-ignorer.txt` n'a pas été publié sur Github
 
 # Conflits
 
 - [X] Depuis le site Github (le dépôt "distant"), utiliser le bouton éditer ✏ pour cocher cette case. Avec "édit depuis Github", comme message de commit.
-- [ ] Cochez cette case depuis VSCode (le dépôt sur votre PC). Faire un commit "édit local"
+- [X] Cochez cette case depuis VSCode (le dépôt sur votre PC). Faire un commit "édit local"
 - Demandez à VSCode de synchroniser.
   - Cela doit échouer.
   - Faire `Shift+CMD+P` Git: Pull (rebase)
